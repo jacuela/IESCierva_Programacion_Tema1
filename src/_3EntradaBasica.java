@@ -43,11 +43,13 @@ public class _3EntradaBasica {
 
 
         System.out.println("---------------------------------------");
+        //Leyendo datos usando ventana
 
-        String nombre2 = JOptionPane.showInputDialog("Introduce tu nombre:");
-        JOptionPane.showMessageDialog(null, "Hola " + nombre2);
+        nombre = JOptionPane.showInputDialog("Introduce tu nombre:");
+        edad = Integer.parseInt(JOptionPane.showInputDialog("Dime tu edad:"));
 
-
+        System.out.println("Te llamas "+nombre+" y tienes "+edad+" años.");
+        //JOptionPane.showMessageDialog(null, "Hola " + nombre2);
 
     }
 }

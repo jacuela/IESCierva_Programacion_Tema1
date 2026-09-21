@@ -4,10 +4,12 @@ public class _4TextoFormateado {
         double valor_decimal=21.5;
         String minombre="Juan";
 
+        // Mostrar diferentes tipos
         System.out.printf("El número %d no tiene decimales.\n", valor_entero);
         System.out.printf("El número %f sale con decimales.\n",  valor_decimal);
         System.out.printf("Me llamo %s\n",minombre);
 
+        // Mostrar decimales
         System.out.printf("El %.3f sale exactamente con 3 decimales.\n", valor_decimal);
         System.out.println();
 
